@@ -32,10 +32,9 @@ font-weight: 600;
 /* banner */
 .banner{
     display: flex;
-    flex-direction: row;
 justify-content: center;
 align-items: flex-end;
-padding: 0px;
+
 }
 
 .banner img{
@@ -127,3 +126,127 @@ font-size: 18px;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
+/* flower-and-plant */
+.flower-and-plant{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    gap: 25px;
+    
+}
+.flower-and-plant-img img{
+  width: 540px;
+height: 537px;
+}
+.flower-and-plant-text h2{
+     font-size:50px ;
+    font-weight: 700;
+    height: 68px;
+    height: 1px;
+    padding-bottom: 40px;
+}
+.flower-and-plant-text ul li p{
+     font-size: 26px;
+font-weight: 400;
+line-height: 27px;
+height: 100%;
+color: rgba(0, 0, 0, 0.5);
+text-align: left;
+
+}
+/* latest details css */
+.latest-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.latest-details-left{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    padding-left:60px;
+
+     position: relative;
+ z-index: 10;
+  
+ 
+
+}
+
+.latest-details-left .small-image .text, .small-image-2 .text
+{
+    justify-content: center;
+align-items: center;
+gap: 10;
+padding: 26px 50px 26px 50px;
+color: white;
+  
+}
+
+.small-image{
+    background-image: url(./assets/deal-bloom.png);
+  width: 366.22px;
+height: 206px;
+border-radius: 10px;
+
+filter: blur(0.8px);
+
+
+
+ background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+ .small-image-2{
+    background-image: url(./assets/deal-ana.png);
+      width: 366.22px;
+height: 206px;
+border-radius: 10px;
+
+filter: blur(0.8px);
+
+
+ background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+.latest-details-right{
+    background-image: url(./assets/deal-zabo.png);
+    width: 753px;
+height: 423.13px;
+border-radius: 10px;
+ background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    padding-left: 50px;
+    filter: blur(1px); 
+ position: relative;
+ z-index: 10;
+}
+.latest-details-right .text{
+    
+ align-items: center;
+gap: 10;
+padding: 86px;
+color: white;
+font-size: 30px;
+  top: 20px;
+  left: 20px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+
+}
+.latest-details-right .text #ta{
+    font-size: 30px;
+}
+.btn {
+  display: inline-block;
+  padding:0 86px;
+  background-color: none;
+  color: #ede7e7;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration-line: underline;
+  font-size: 20px;
+  
+}
+ 
