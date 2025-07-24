@@ -279,7 +279,7 @@ padding: 0px;
   text-decoration-line: underline;
   font-size: 20px;
 }
-/* join part */
+
 .search-parent input {
   /* border-radius: 66px; */
 text-align: center;
@@ -295,7 +295,7 @@ flex-direction: row;
 
 }
 
-/* footer */
+/* join part */
 .hero {
     height: 400px;
     background-size: cover;
@@ -337,7 +337,7 @@ flex-direction: row;
 .hero-content button:hover {
     background-color: #e07626;
 }
-
+/* footer part */
 footer {
     background-color: #fff;
     padding: 20px 0;
